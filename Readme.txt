@@ -1,5 +1,3 @@
-# Kidney Disease Classification System (KDCS)
-
 The Kidney Disease Classification System (KDCS) is a web-based application designed to support early detection and classification of Chronic Kidney Disease (CKD) and related kidney conditions. It combines machine learning (Gradient Boosting Classifier) for analyzing clinical data and deep learning (MobileNet) for processing ultrasound images, all integrated into a Django-based platform.
 
 ## Project Overview

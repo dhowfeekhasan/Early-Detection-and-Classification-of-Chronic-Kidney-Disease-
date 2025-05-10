@@ -5,8 +5,8 @@ The Kidney Disease Classification System (KDCS) is a web-based application desig
 ## Project Overview
 
 - **Objective**: Provide an AI-powered tool for accurate and timely CKD diagnosis using clinical metrics and medical imaging.
-- **Technologies Used**: Python, Django, Scikit-learn, TensorFlow, Joblib, PIL, Matplotlib, Seaborn.
-- **Datasets**: 
+- **Technologies Used**: Python, Streamkit, Scikit-learn, TensorFlow, Joblib, PIL, Matplotlib, Seaborn.
+- ** reak time Datasets**: 
   - Numerical: UCI CKD dataset (KIDNEY.csv) with 400 records.
   - Image: Custom dataset with 4,000 ultrasound images (Normal, Tumor, Stone, Cyst).
 - **Performance**: Achieves 99% accuracy for numerical predictions and 92.4% for image classification.
@@ -39,34 +39,14 @@ venv\Scripts\activate
 3. Install Required Dependencies:
    pip install -r requirements.txt
 
-4.Configure the Project:
-  python manage.py migrate
-
-5.Apply Migrations:
-  python manage.py migrate
-
-6.Create a Superuser:
-  python manage.py createsuperuser
-
-7.Run the Development Server:
-  python manage.py runserver
-
-File Structure
-kidney_project/: Core Django project files.
-APP/: Contains models (models.py), views (views.py), templates, and pre-trained models.
-DATASET/TRAIN/: Ultrasound image dataset directory.
-KIDNEY.csv: Tabular dataset file.
-requirements.txt: Dependency list (if included).
-README.md: This file.
-Contributing
-Contributions are encouraged! Fork the repository, create a feature branch, commit your changes, and submit a pull request.
+4.Run the Development Server:
+  streamlit run app.py
 
 License
 Distributed under the MIT License. See LICENSE file for more details.
 
 Contact
-Abdul Bashith J: bashithabdul01@gmail.com
 Dhowfeek Hasan S: dhowfeekhasan@gmail.com
-Syed Yaheya S I: syedyaheya16@gmail.com
+
 Acknowledgments
 This project was developed with support from B.S. Abdur Rahman Crescent Institute of Science and Technology.
